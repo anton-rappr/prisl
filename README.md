@@ -1,6 +1,6 @@
 
 # prisl
-Slicing tool for the PRISM Language written with the help of the storm parser in cpp
+Slicing tool for the PRISM Language written with the help of the storm parser in cpp.
 
 ## About this project
 This project is the source code of the prisl tool, which is capable
