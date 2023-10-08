@@ -1,0 +1,3 @@
+/home/kek/prisl_release_dir/prisl/build/CMakeFiles/prisl.dir
+/home/kek/prisl_release_dir/prisl/build/CMakeFiles/edit_cache.dir
+/home/kek/prisl_release_dir/prisl/build/CMakeFiles/rebuild_cache.dir

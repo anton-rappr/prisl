@@ -11,7 +11,7 @@ is then used to construct a dependency graph which is ultimately used
 to slice the model and write it to the ```slice.prism``` file
 
 ## Installation
-
+Installation was yet only tested on Ubuntu 23.04, however cpp and storm are also available for mac and should work aswell.
 ### Dependencies 
 
 - Since prisl is written in the C++ language, you need to be able to
