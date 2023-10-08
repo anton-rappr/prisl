@@ -1,0 +1,135 @@
+mdp 
+
+global g : bool init true;
+
+module m1
+    a : bool init true;
+    [] true -> (a'=!a);
+endmodule 
+
+module m2 
+    b : [0..10] init 1;
+    [] true -> 1:(b'=b=10? b-1 : b+1);
+    [] true -> (b'=b=0? b+1 : b-1)&(g'=!g);
+endmodule 
+
+module m3 = m1[a=c] endmodule
+module m4 = m1[a=d] endmodule
+module m5 = m1[a=e] endmodule
+module m6 = m1[a=f] endmodule
+module m7 = m1[a=h] endmodule
+module m8 = m1[a=i] endmodule
+module m9 = m1[a=j] endmodule
+module m10 = m1[a=k] endmodule
+module m11 = m1[a=l] endmodule
+module m12 = m1[a=m] endmodule
+module m13 = m1[a=n] endmodule
+module m14 = m1[a=o] endmodule
+module m15 = m1[a=p] endmodule
+module m16 = m1[a=q] endmodule
+module m17 = m1[a=r] endmodule
+module m18 = m1[a=s] endmodule
+module m19 = m1[a=t] endmodule
+module m20 = m1[a=u] endmodule
+module m21 = m1[a=v] endmodule
+module m22 = m1[a=w] endmodule
+module m23 = m1[a=x] endmodule
+module m24 = m1[a=y] endmodule
+module m25 = m1[a=z] endmodule
+module m26 = m1[a=a1] endmodule
+module m27 = m1[a=a2] endmodule
+module m28 = m1[a=a3] endmodule
+module m29 = m1[a=a4] endmodule
+module m30 = m1[a=a5] endmodule
+module m31 = m1[a=a6] endmodule
+module m32 = m1[a=a7] endmodule
+module m33 = m1[a=a8] endmodule
+module m34 = m1[a=a9] endmodule
+module m35 = m1[a=a10] endmodule
+module m36 = m1[a=a11] endmodule
+module m37 = m1[a=a12] endmodule
+module m38 = m1[a=a13] endmodule
+module m39 = m1[a=a14] endmodule
+module m40 = m1[a=a15] endmodule
+module m41 = m1[a=a16] endmodule
+module m42 = m1[a=a17] endmodule
+module m43 = m1[a=a18] endmodule
+module m44 = m1[a=a19] endmodule
+module m45 = m1[a=a20] endmodule
+module m46 = m1[a=a21] endmodule
+module m47 = m1[a=a22] endmodule
+module m48 = m1[a=a23] endmodule
+module m49 = m1[a=a24] endmodule
+module m50 = m1[a=a25] endmodule
+module m51 = m1[a=a26] endmodule
+module m52 = m1[a=a27] endmodule
+module m53 = m1[a=a28] endmodule
+module m54 = m1[a=a29] endmodule
+module m55 = m1[a=a30] endmodule
+module m56 = m1[a=a31] endmodule
+module m57 = m1[a=a32] endmodule
+module m58 = m1[a=a33] endmodule
+module m59 = m1[a=a34] endmodule
+module m60 = m1[a=a35] endmodule
+module m61 = m1[a=a36] endmodule
+module m62 = m1[a=a37] endmodule
+module m63 = m1[a=a38] endmodule
+module m64 = m1[a=a39] endmodule
+module m65 = m1[a=a40] endmodule
+module m66 = m1[a=a41] endmodule
+module m67 = m1[a=a42] endmodule
+module m68 = m1[a=a43] endmodule
+module m69 = m1[a=a44] endmodule
+module m70 = m1[a=a45] endmodule
+module m71 = m1[a=a46] endmodule
+module m72 = m1[a=a47] endmodule
+module m73 = m1[a=a48] endmodule
+module m74 = m1[a=a49] endmodule
+module m75 = m1[a=a50] endmodule
+module m76 = m1[a=a51] endmodule
+module m77 = m1[a=a52] endmodule
+module m78 = m1[a=a53] endmodule
+module m79 = m1[a=a54] endmodule
+module m80 = m1[a=a55] endmodule
+module m81 = m1[a=a56] endmodule
+module m82 = m1[a=a57] endmodule
+module m83 = m1[a=a58] endmodule
+module m84 = m1[a=a59] endmodule
+module m85 = m1[a=a60] endmodule
+module m86 = m1[a=a61] endmodule
+module m87 = m1[a=a62] endmodule
+module m88 = m1[a=a63] endmodule
+module m89 = m1[a=a64] endmodule
+module m90 = m1[a=a65] endmodule
+module m91 = m1[a=a66] endmodule
+module m92 = m1[a=a67] endmodule
+module m93 = m1[a=a68] endmodule
+module m94 = m1[a=a69] endmodule
+module m95 = m1[a=a70] endmodule
+module m96 = m1[a=a71] endmodule
+module m97 = m1[a=a72] endmodule
+module m98 = m1[a=a73] endmodule
+module m99 = m1[a=a74] endmodule
+module m100 = m1[a=a75] endmodule
+module m101 = m1[a=a76] endmodule
+module m102 = m1[a=a77] endmodule
+module m103 = m1[a=a78] endmodule
+module m104 = m1[a=a79] endmodule
+module m105 = m1[a=a80] endmodule
+module m106 = m1[a=a81] endmodule
+module m107 = m1[a=a82] endmodule
+module m108 = m1[a=a83] endmodule
+module m109 = m1[a=a84] endmodule
+module m110 = m1[a=a85] endmodule
+module m111 = m1[a=a86] endmodule
+module m112 = m1[a=a87] endmodule
+module m113 = m1[a=a88] endmodule
+module m114 = m1[a=a89] endmodule
+module m115 = m1[a=a90] endmodule
+module m116 = m1[a=a91] endmodule
+module m117 = m1[a=a92] endmodule
+module m118 = m1[a=a93] endmodule
+module m119 = m1[a=a94] endmodule
+module m120 = m1[a=a95] endmodule
+module m121 = m1[a=a96] endmodule
+module m122 = m1[a=a97] endmodule

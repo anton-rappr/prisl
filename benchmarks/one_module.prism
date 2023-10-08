@@ -1,0 +1,16 @@
+mdp 
+
+global tester : [0..1];
+
+module m1 
+    a : bool;
+    b : bool;
+    c : bool;
+    d : bool;
+
+    [] tester=0 -> (a'=a); 
+    [] true -> (tester=0? 1 : 0):(b'=!b) + (tester=1? 1 : 0):(b'=b); 
+    [] true -> (c'= tester=1? true : false ); 
+    [a1] true -> (d'=!d); 
+    [a1] tester = 1 -> true;
+endmodule 

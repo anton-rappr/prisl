@@ -1,0 +1,15 @@
+mdp 
+
+module m1 
+    v1 : bool;
+    [sync] true -> 0.3:(v1'=!v1) + 0.7:(v1'=v1);
+endmodule 
+
+module m2 
+    a : [0..1];
+    b : [0..1];
+    [sync] a > 2 -> (a'=a);
+    [sync] b=0 | b=1 -> (b'= b=0?b+1:b-1);
+endmodule
+
+init a + b=1 endinit
